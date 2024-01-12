@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudharsun Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sudharsun Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills  </a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sudharsun</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="SudharsunPic-modified.png " />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">SUDHARSUN S</h1>
+        <p class="section__text__p2">STUDENT</p>
+        <div class="btn-container">
+          <a href="Sudharsun Resume new.pdf">
+          <button
+            class="btn btn-color-2"
+            
+          >
+            Download CV
+          </button>
+        </a>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://w7.pngwing.com/pngs/1024/30/png-transparent-computer-icons-logo-linkedin-logopsd-source-files-angle-text-rectangle.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sudharsun-s-595733268'"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SUDHARSUN2003'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://png.pngtree.com/png-vector/20220621/ourmid/pngtree-premium-reward-batch-achievement-award-png-image_5162505.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Web Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://www.freeiconspng.com/thumbs/education-png/education-png-6.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BACHELOR OF ENGINEERING<br />M.Kumarasamy College Of Engineering (2021 - 2025)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Seeking a career opportunity in a progressive organization 
+              where I can utilize my academic knowledge and internship experience
+               to contribute effectively. Eager to apply my strong work ethic, adaptability,
+                and passion for learning to drive the company's success. Looking for 
+                a challenging role in a dynamic environment that will allow me to develop professionally,
+               learn from experienced professionals, and make meaningful contributions to the organization's goals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://www.pngarts.com/files/2/Down-Arrow-Transparent-Image.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">SKLLS</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Techinical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                 <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Team Work</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Time Management</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://www.freestock.com/450/freestock_563883817.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem Solving</h3>
+                </div>
+              </article>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://www.pngarts.com/files/2/Down-Arrow-Transparent-Image.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="ECHO CANCELLATION USING LMS ALGORITHM.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SUDHARSUN2003/Echo-Cancellation-Using-LMS-Algorithm'"
+              >
+                Details
+              </button>
+           
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="ACCIDENT DEDECTION AND NOTIFICATION USING GPS.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SUDHARSUN2003/Accident-Detection-And-Notification'"
+              >
+              Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="SHOCKLESS TOUCH AUTOMATION.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SUDHARSUN2003/Shockless-Touch-Automation'"
+              >
+              Details
+              </button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://www.pngarts.com/files/2/Down-Arrow-Transparent-Image.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://thumbs.dreamstime.com/b/mail-icon-flat-style-email-symbol-isolated-white-background-open-envelope-pictogram-black-website-design-app-ui-vector-165006383.jpg"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sudharsun342003@gmail.com">sudharsun342003@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://w7.pngwing.com/pngs/1024/30/png-transparent-computer-icons-logo-linkedin-logopsd-source-files-angle-text-rectangle.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sudharsun-s-595733268">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sudharsun. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
